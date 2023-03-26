@@ -1,6 +1,7 @@
 body
 {
-background-color: white;
+background-color:floralwhite;
+
 }
 header
 {
@@ -41,7 +42,7 @@ h1
 h2
 {
   text-align: center;
-  font-size:25px;
+  font-size:50px;
   color:blueviolet;
   padding-bottom: 10px;
 }
@@ -50,6 +51,23 @@ h2
 {
   display:flex;
   margin: 10px;
+  
+}
+#babuji
+{
+ width:200px;
+ height:200px;
+ 
+}
+.corner
+{
+background-image: linear-gradient(to right,white,pink,white);
+color:blueviolet;
+text-align: left;
+width:100px;
+height: 40px;
+
+
 }
 .aside
 {
@@ -63,10 +81,13 @@ h2
 
 .content
 {
+background-image: linear-gradient(to right,pink,white,pink,white,pink);
 text-align: center;
 font:20px;
 margin-left: 22px;
-width:1000px;
+width:1500px;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 .boxes
@@ -95,7 +116,7 @@ width:1000px;
 }
 img
 {
-  margin:10px;
+  margin:2px;
 }
 h1:hover
 {
@@ -104,5 +125,11 @@ h1:hover
 a:hover
 {
   background-color:pink;
+  box-shadow: 5px 5px 5px black;
 }
+.corner:hover
+{
+  box-shadow: 5px 5px 5px black;
+}
+
   
