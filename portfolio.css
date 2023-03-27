@@ -102,15 +102,18 @@ flex-wrap: wrap;
 
 .boxes
 {
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: 50px;
   width:1000px;
+  height: 1000px;
+  justify-content: center;
 
 }
 #background-img
 {
-  background-image: url("/Users/yamini/Desktop/code/portfolio/pink.png");
+  background-image: url("./pink.png");
   height:200px;
   width:1500px;
   background-position: center;
@@ -145,25 +148,32 @@ a:hover
 
 #work-div
 {
-  height: 500px;
-  background-image: url("./myimage.jpg");
+  height: 1500px;
+  background-image: url("./horiseon.png");
   background-position: center;
   display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .text-left
 {
+  border:4px solid black;
 align-self: flex-end;
 }
 .box-1
 {
+ 
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin:5px;
+  margin:15px;
   display:flex;
   background-image: linear-gradient(to right,blue,black);
   width:450px;
-  height:200px;
+  height:300px;
   border: 2px solid black;
+  box-shadow: 2px 2px 2px solid black;
   
 }
 .footer
@@ -171,4 +181,13 @@ align-self: flex-end;
  display: flex;
  justify-content: space-around;
  flex-direction: row;
+}
+.box-1:hover
+{
+  background-image: linear-gradient(to right,white,pink);
+}
+#work-div:hover
+{
+opacity: 90%;
+border:5px solid black;
 }
